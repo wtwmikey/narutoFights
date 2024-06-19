@@ -1,0 +1,357 @@
+
+/*Top of the page*/
+
+img{
+    max-width: 30%;
+    padding: 1px;
+    margin: auto;                                                              
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.headerImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 0px 5px #0000005d); 
+}
+
+.pageIntro{
+    padding: 0px;
+    margin: none;
+    opacity: 0%;
+    user-select: none;
+}
+.introLoopLink:hover{
+    color: aliceblue;
+}
+
+a {
+    text-decoration:none;
+    padding: 5px;
+    margin: auto;
+    display: inline-flex;
+    color: rgb(255, 255, 255);
+    transition: 500ms;
+   }
+   
+a:hover{
+       color: rgb(68, 77, 202);
+   }
+
+.tabBarLinks{
+    margin: auto;
+    padding: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*body section*/
+
+body{
+    font-family: 'Archivo', sans-serif;
+    background-color: rgb(255, 120, 86);
+    color: aliceblue;
+    transition: 200ms;
+}
+
+body::-webkit-scrollbar{
+    display:none;
+}
+
+body.narutovspain{
+    position: relative;
+    background-image: url('/narutovspain.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 1px;
+    height: 155vh;
+}
+
+body.narutovspain::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body.rockLeeGaara{
+    position: relative;
+    background-image: url('/rockleevsgaara.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 1px;
+    height: 140vh;
+    
+}
+
+body.rockLeeGaara::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body.narutoSasuke2x{
+    position: relative;
+    background-image: url('/narutovssasuke2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 1px;
+    height: 140vh;
+}
+
+body.narutoSasuke2x::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body.nsbmBody{
+    position: relative;
+    background-image: url('/nsbm.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 1px;
+    height: 140vh;
+}
+
+body.nsbmBody::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body.narutosasuke1x{
+    position: relative;
+    background-image: url('/narutosasuke1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center ceaer;
+    margin: auto;
+    padding: 1px;
+    height: 140vh;
+}
+
+body.narutosasuke1x::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+body.mainPage{
+    position: relative;
+    background-image: url('/Konoha.png');
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: center center;
+    margin: auto;
+    padding: 1px;
+    height: 140vh;
+}
+
+body.mainPage::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: inherit;
+    filter: blur(5px);
+    z-index: -1;
+}
+
+.pageIntro{
+    padding: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    
+}
+
+i{
+    padding: 2px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.narutoPain{
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    max-width: 880vw;
+    max-height: 20vh;
+}
+
+
+.title{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.Fight{
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 0px 5px #0000005d);
+}
+
+p{
+    
+    padding: 2px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 0px 5px #0000005d);
+}
+
+h1{
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+     display: flex;
+     filter: drop-shadow(2px 0px 8px #ffffff);
+    
+}
+h2{
+    padding: 10px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    filter: drop-shadow(2px 0px 5px #0000005d);
+}
+
+/* Default styling */
+.tabBarLinks a {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    filter: drop-shadow(2px 2px 5px #0000005d);
+
+}
+
+/* Media query for smaller screens (e.g., phones) */
+@media screen and (max-width: 600px) {
+    .tabBarLinks a {
+        padding: 2px; /* Adjust padding as needed for spacing */
+    }
+    .tabBarLinks a i {
+        display: inline-block; /* Ensure icons display properly */
+        font-size: 20px; /* Adjust icon size */
+        line-height: 1; /* Adjust icon alignment if needed */
+    }
+    .tabBarLinks a span {
+        display: none; /* Hide text labels on smaller screens */
+    }
+}
+
+.spoiler {
+    color: transparent; /* Hide the text color */
+    background-color: black; /* Black background */
+    border: 1px solid black; /* Black border */
+    user-select: none;
+    padding: 1px; /* Optional: Adjust padding as needed */
+    cursor: pointer; /* Change cursor to indicate it can be clicked */
+}
+
+.spoiler-revealed {
+    background-color: inherit; /* Reveal the background */
+    filter: blur(0px);
+    color: inherit; /* Reveal the text color */
+    border: none; /* Remove the border */
+}
+
+.commentP{
+    padding: 10px;
+}
+
+/*footer seciton*/
+
+footer{
+    padding: 2px;
+    margin: auto;
+    color: rgb(24, 24, 24);
+    display: table;
+    text-align: center;
+    filter: drop-shadow(2px 1px 8px rgb(255, 255, 255) );
+}
+
+.commentBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.submitButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.commentSection{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 50px 50px;
+    border-radius: 50px;
+    border-color: black;
+}
+
+.contactFooter:hover{
+    color: bisque;
+    transition-duration: 369ms;
+}
+.contactFooter{
+    color: blue;
+    transition-duration: 1000ms;
+    
+}
+
