@@ -54,7 +54,7 @@ a:hover{
 
 body{
     font-family: 'Archivo', sans-serif;
-    background-color: rgb(255, 120, 86);
+    background-color: rgba(0, 0, 0, 0.144);
     color: aliceblue;
     transition: 200ms;
 }
