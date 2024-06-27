@@ -298,17 +298,19 @@ h2{
     color: transparent; /* Hide the text color */
     background-color: black; /* Black background */
     border: 1px solid black; /* Black border */
-    user-select: none;
-    padding: 1px; /* Optional: Adjust padding as needed */
+    user-select: none; /* Prevent text selection */
+    padding: 5px; /* Adjust padding as needed */
     cursor: pointer; /* Change cursor to indicate it can be clicked */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
 }
 
 .spoiler-revealed {
-    background-color: inherit; /* Reveal the background */
-    filter: blur(0px);
+    background-color: transparent; /* Reveal the background */
+    filter: blur(0px); /* Remove blur effect */
     color: inherit; /* Reveal the text color */
     border: none; /* Remove the border */
 }
+
 
 .commentP{
     padding: 10px;
