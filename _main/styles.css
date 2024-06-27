@@ -314,7 +314,12 @@ h2{
     padding: 10px;
 }
 
+#disqus_thread{
+    padding: 1px;
+    margin: auto;
+    filter: drop-shadow(2px 2px 5px #0000009d);
 
+}
 
 /*footer seciton*/
 
