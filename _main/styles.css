@@ -15,7 +15,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(2px 0px 5px #0000005d); 
+    filter: drop-shadow(2px 0px 5px #0000009d); 
 }
 
 .pageIntro{
@@ -239,7 +239,7 @@ i{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(2px 0px 5px #0000005d);
+    filter: drop-shadow(2px 0px 5px #0000009d);
 }
 
 p{
@@ -249,7 +249,7 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: drop-shadow(2px 0px 5px #0000005d);
+    filter: drop-shadow(2px 0px 5px #0000009d);
 }
 
 h1{
@@ -267,7 +267,7 @@ h2{
     justify-content: center;
     align-items: center;
     display: flex;
-    filter: drop-shadow(2px 0px 5px #0000005d);
+    filter: drop-shadow(2px 0px 5px #0000009d);
 }
 
 /* Default styling */
@@ -275,7 +275,7 @@ h2{
     display: inline-block;
     padding: 8px 12px;
     text-decoration: none;
-    filter: drop-shadow(2px 2px 5px #0000005d);
+    filter: drop-shadow(2px 2px 5px #0000009d);
 
 }
 
@@ -323,26 +323,6 @@ footer{
     display: table;
     text-align: center;
     filter: drop-shadow(2px 1px 8px rgb(255, 255, 255) );
-}
-
-.commentBar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-.submitButton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.commentSection{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    border: 50px 50px;
-    border-radius: 50px;
-    border-color: black;
 }
 
 .contactFooter:hover{
