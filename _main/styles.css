@@ -94,7 +94,7 @@ body.rockLeeGaara{
     background-position: center center;
     margin: auto;
     padding: 1px;
-    height: 180vh;
+    min-height: 100vh; 
     
 }
 
@@ -118,7 +118,7 @@ body.narutoSasuke2x{
     background-position: center center;
     margin: auto;
     padding: 1px;
-    height: 180vh;
+    min-height: 100vh; 
 }
 
 body.narutoSasuke2x::before {
@@ -141,7 +141,7 @@ body.nsbmBody{
     background-position: center center;
     margin: auto;
     padding: 1px;
-    height: 180vh;
+    min-height: 100vh; 
 }
 
 body.nsbmBody::before {
@@ -164,7 +164,7 @@ body.narutosasuke1x{
     background-position: center ceaer;
     margin: auto;
     padding: 1px;
-    height: 180vh;
+    min-height: 100vh; 
 }
 
 body.narutosasuke1x::before {
@@ -187,7 +187,7 @@ body.mainPage{
     background-position: center center;
     margin: auto;
     padding: 1px;
-    height: 140vh;
+    min-height: 100vh; 
 }
 
 body.mainPage::before {
